@@ -21,7 +21,7 @@ A special shout out to vectorization here! This step was a greater challenge tha
 
 This script begins by setting a range for the rho and theta values— for the former, based on the maximum distance from the origin, for the latter, based on the range of angles of motion possible. It then initializes an accumulator, populated by zeros and with dimensions based on the length of the ranges for the possible rho and theta values (influenced by the inputs of rhoRes and thetaRes). I then transpose the matrix of nonzero points in the image threshold to get coordinate pairs for non- zero points. Using np.matmul, I multiply the edge matrix (the threshold transpose) and an array of sin and cosine values for all thetas and convert the results to integers s.t. they can be used by np.histogram2d, which tallies up the occurrences of each combination of rho and theta and saves them to the accumulator. np.histogram2d also records the resulting bin sizes, which are equivalent to thetaScale and rhoScale.
 
-img103normal.png
+<img src="https://github.com/mtoppan/cs183/blob/main/a1%20-%20image%20filtering%20and%20hough%20transformation/a1%20-%20pictures/img103normal.png" height="550">
 
 The values that are maleable here in the houghScript are rhoRes and thetaRes. Increasing rhoRes (to 4) results in the following Hough visualization and Hough lines:
 
