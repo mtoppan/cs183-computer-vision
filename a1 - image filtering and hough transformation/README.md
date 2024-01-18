@@ -25,12 +25,11 @@ This script begins by setting a range for the rho and theta values— for the fo
 
 The values that are maleable here in the houghScript are rhoRes and thetaRes. Increasing rhoRes (to 4) results in the following Hough visualization and Hough lines:
 
-<img src="https://github.com/mtoppan/cs183/blob/main/a1%20-%20image%20filtering%20and%20hough%20transformation/a1%20-%20pictures/Screen%20Shot%202023-01-24%20at%2012.56.11%20PM.png" width="180"> 
-<img src="https://github.com/mtoppan/cs183/blob/main/a1%20-%20image%20filtering%20and%20hough%20transformation/a1%20-%20pictures/Screen%20Shot%202023-01-24%20at%2012.56.16%20PM.png" height="300"> 
+<img src="https://github.com/mtoppan/cs183/blob/main/a1%20-%20image%20filtering%20and%20hough%20transformation/a1%20-%20pictures/a1%20pics/Screen%20Shot%202023-01-24%20at%2012.56.11%20AM.png" height="400"> <img src="https://github.com/mtoppan/cs183/blob/main/a1%20-%20image%20filtering%20and%20hough%20transformation/a1%20-%20pictures/a1%20pics/Screen%20Shot%202023-01-24%20at%2012.56.16%20AM.png" height="400"> 
 
 ...while greater thetaRes (to π/30) does this to the Hough visualization and Hough lines, respectively:
 
-<img src="https://github.com/mtoppan/cs183/blob/main/a1%20-%20image%20filtering%20and%20hough%20transformation/a1%20-%20pictures/img103%20thetares%2030.png" width="80"> <img src="https://github.com/mtoppan/cs183/blob/main/a1%20-%20image%20filtering%20and%20hough%20transformation/a1%20-%20pictures/img104%20thetares%2030.png" height="550">
+<img src="https://github.com/mtoppan/cs183/blob/main/a1%20-%20image%20filtering%20and%20hough%20transformation/a1%20-%20pictures/img103%20thetares%2030.png" height="400"> <img src="https://github.com/mtoppan/cs183/blob/main/a1%20-%20image%20filtering%20and%20hough%20transformation/a1%20-%20pictures/img104%20thetares%2030.png" height="400">
 
 ## Hough Lines
 
